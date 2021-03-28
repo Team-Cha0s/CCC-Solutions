@@ -1,0 +1,29 @@
+
+declare a variable which takes the amount of neighbourhoods = n
+declare a list wich holds the distinct points = distinct
+
+for loop through the n variable : 
+  take input for the neighbourhoods distinction = line 
+  append the line to the distinct list
+
+#[16, 0, 10, 4, 15]
+CONVERT TO INTEGER distinct = [int(i) for i in distinct]
+sort the distinct list
+#[0, 4, 10, 15, 16]
+
+Total = None
+
+for i in range(len(distinct)-1)
+  sum1 = distinct[i+1]#4 + distinct[i]#0 #4
+  mid1 = sum1/2 #2
+  sum2 = distinct[i+1]#4 + distinct[i+2]#10 #14
+  mid2 = sum2/2 #7
+  Temp = mid1 - mid2
+  if Temp < 0: 
+    Temp = Temp * (-1)
+  if Temp < Total:
+    Total = Temp
+
+print(Total)
+
+

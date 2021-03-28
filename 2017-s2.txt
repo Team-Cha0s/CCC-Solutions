@@ -1,0 +1,26 @@
+number = int(input())
+tide = input().split()
+
+sum1 = 0
+
+stack = []
+for i in range(0, number)
+    # add to the list
+    # sort the list
+
+# split the list into two
+# assign a variable(middle) the number/2
+# assign a variable  the list[:middle] this would get the first half(lowtidelist)
+# assign a variable  the list[middle:] this would get the second half(hightidelist)
+
+# resort the lowtidelist so that it starts with its highest number
+# sort the hightidelist so that it starts with the lowest number
+
+# for loop through number 
+# create a new list
+# add lowtide[0] than hightide[0]
+
+# print out the new list and we got the answer
+
+
+

@@ -1,0 +1,9 @@
+input = int(input())
+hour = 12
+minute = 0
+counter = 0 
+
+def firstday():
+
+
+def lastday():
