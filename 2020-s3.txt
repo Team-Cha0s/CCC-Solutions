@@ -1,0 +1,2 @@
+this one is actually really ez you find all the permutations 
+of the first string and add that to a list than make sure that none of the permutations in the list are in the second string

@@ -1,0 +1,46 @@
+Refinment #1
+
+take in number of lines 
+declare a mesurements list 
+
+for loop through the number of lines
+    take in the line and split it since its seperated by a space
+    convert line to int
+    add line to mesurements lists
+
+sort mesurements
+https://www.kite.com/python/answers/how-to-sort-a-list-of-lists-by-an-index-of-each-inner-list-in-python
+
+
+Refinment #2
+take in number of lines 
+declare a mesurements list 
+
+for loop through the number of lines
+    take in the line and split it since its seperated by a space
+    convert line to int
+    add line to mesurements lists
+
+sort mesurements
+https://www.kite.com/python/answers/how-to-sort-a-list-of-lists-by-an-index-of-each-inner-list-in-python
+
+PP = mesurements[0][1]
+PT = mesurements[0][0]
+max_speed = 0
+
+for i in range(len(mesurements)):
+    temp_speed = (mesurements[i + 1][1] - PT) / (mesurements[i + 1][0] - PT) 
+    PT = mesurements[i + 1][0]
+    PP = mesurements[i + 1][1]
+    if temp_speed > max_speed:
+        max_speed = temp_speed
+
+FORUMULA:
+(next position - previous position) / (next time - previous time) = speed
+
+(120 - 100) / 10
+# since 120 is bigger than 50 we subtract previous position by next position
+(120 - 50) / (20 - 10)
+
+
+
